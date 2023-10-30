@@ -1,0 +1,16 @@
+[package]
+name = "dct-nft-marketplace"
+version = "0.0.0"
+authors = ["Dorin Iancu <dorin.iancu@dharitri.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/marketplace_main.rs"
+[dependencies.dharitri-sc]
+version = "0.0.3"
+
+[dependencies.dharitri-sc-modules]
+version = "0.0.3"
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.0.3"

@@ -1,0 +1,16 @@
+[package]
+name = "seller-contract-mock"
+version = "0.0.0"
+authors = ["Dorin Iancu <dorin.iancu@dharitri.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+[dependencies.dharitri-sc]
+version = "0.0.3"
+
+[dependencies.dct-nft-marketplace]
+path = "../dct-nft-marketplace"
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.0.3"

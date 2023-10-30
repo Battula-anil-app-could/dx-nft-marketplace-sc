@@ -1,0 +1,13 @@
+[package]
+name = "seller-contract-mock-meta"
+version = "0.0.0"
+edition = "2018"
+publish = false
+authors = ["Dorin Iancu <dorin.iancu@dharitri.com>"]
+
+[dev-dependencies]
+[dependencies.seller-contract-mock]
+path = ".."
+
+[dependencies.dharitri-sc-meta]
+version = "0.0.3"

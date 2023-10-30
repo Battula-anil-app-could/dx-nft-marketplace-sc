@@ -1,0 +1,11 @@
+[package]
+name = "dct-nft-marketplace-meta"
+version = "0.0.0"
+authors = ["Dorin Iancu <dorin.iancu@dharitri.com>"]
+edition = "2018"
+publish = false
+[dependencies.dct-nft-marketplace]
+path = ".."
+
+[dependencies.dharitri-sc-meta]
+version = "0.0.3"
